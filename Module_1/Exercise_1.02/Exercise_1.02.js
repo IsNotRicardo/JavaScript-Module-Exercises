@@ -1,3 +1,3 @@
-name = prompt("What is your name?")
+const name = prompt("What is your name?")
 
 document.write("Hello, " + name)
