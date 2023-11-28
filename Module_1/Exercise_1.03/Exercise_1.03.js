@@ -1,6 +1,6 @@
-const ints = []
+const ints = Array(3)
 
-for (let i= 0; i < 3; i++) {
+for (let i= 0; i < ints.length; i++) {
     ints[i] = parseInt(prompt("Insert integer " + (i + 1) + ':'))
 }
 
