@@ -1,7 +1,7 @@
 function leapInterval() {
     let sYear = parseInt(prompt("Insert a start year: "))
     let fYear = parseInt(prompt("Insert an end year: "))
-    let leapYears = "<ul>"
+    let leapYears = ''
 
     for (let year = sYear; year < fYear; year++) {
         if (year % 4 === 0) {
@@ -14,8 +14,7 @@ function leapInterval() {
         }
     }
 
-    leapYears += "</ul>"
-    document.write(leapYears)
+    document.write("<ul>" + leapYears + "</ul>")
 }
 
 leapInterval()
